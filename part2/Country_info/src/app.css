@@ -1,0 +1,19 @@
+:root {
+    --fontFamily: 'Rubik', sans-serif;
+    --PrimaryColor: #eaefd3;
+    --SecondayColor: #27233a;
+}
+
+body {
+    font-family: var(--fontFamily);
+    background-color: var(--PrimaryColor);
+    color: var(--SecondayColor);
+}
+
+.loadingClass {
+    display: flex;
+    font-size: xx-large;
+    font-weight: 800;
+    width: 1005;
+    justify-content: center;
+}

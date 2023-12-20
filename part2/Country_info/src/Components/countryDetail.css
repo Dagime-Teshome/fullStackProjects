@@ -1,0 +1,56 @@
+.cardClass {
+    background-color: #dcc48e;
+    display: flex;
+    border-radius: 2em;
+    gap: 2em;
+    flex-direction: column;
+    padding: 0.9em;
+    outline-style: solid;
+    outline-color: #505168;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardInfoClass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.cardInfoClass>h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.cardImgClass>img {
+    border-radius: 1em 1em 0 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    outline-style: solid;
+    outline-color: #EAEFD3;
+}
+
+.cardImgClass {
+    min-height: 150px;
+}
+
+.cardTextClass {
+    display: flex;
+    gap: 10px;
+}
+
+.cardTextClass ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cardTextClass>span {
+    font-weight: bold;
+}
